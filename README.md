@@ -31,4 +31,7 @@ PowerAnalysis is a toolkit for estimating sample sizes for various types of stud
 To install the package and dependencies, run:
 ```bash
 pip install -r requirements.txt
-
+```
+### Contact
+🤚 Important
+For any questions, please contact: 👉 Ashok K. Sharma; ashoks773@gmail.com
