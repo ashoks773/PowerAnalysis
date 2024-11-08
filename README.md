@@ -18,13 +18,10 @@ This module includes microbiome-specific power calculations for analyzing microb
 
 ## ANOVA-Based Power Calculation: `PowerCalculation_ANOVAbased.ipynb`
 
-This ANOVA-based module is tailored for power analysis in microbiome studies, focusing on group-level differences and repeated measures. It provides:
+This ANOVA-based module for power analysis, focusing on group-level differences and repeated measures. It provides:
 
 - **Sample Size Estimation Using ANOVA**  
   Determines the required sample size per group for detecting differences across multiple groups, based on specified effect sizes.
-
-- **Adjustments for ICC**  
-  Incorporates intra-class correlation (ICC) adjustments for repeated measures, ensuring accurate power estimates for clustered data (e.g., within-subject longitudinal studies).
 
 ---
 
@@ -34,9 +31,10 @@ This ANOVA-based module is tailored for power analysis in microbiome studies, fo
    - ANOVA-based sample size estimation suitable for cross-sectional studies or group comparisons.
 
 2. **Type 2: Longitudinal Data Power Calculation**  
-   - Power estimation for repeated measures in longitudinal data, accounting for time-based dependencies and within-subject variability.
+   - Adjustments for ICC: Incorporates intra-class correlation (ICC) adjustments for repeated measures, ensuring accurate power estimates for clustered data (e.g., within-subject longitudinal studies).
+   - Accounts for time-based dependencies and within-subject variability in repeated measures, providing robust power estimates for longitudinal studies.
 
-3. **Type 3: Covariate-Adjusted Longitudinal Data Power Calculation**  
+4. **Type 3: Covariate-Adjusted Longitudinal Data Power Calculation**  
    - Provides sample size estimates for longitudinal studies with covariate effect adjustments, ideal for studies where confounding factors may influence power.
 
 ---
@@ -52,7 +50,7 @@ To use PowerAnalysis, you’ll need the following Python packages:
 - **pandas** (for data manipulation)
 - **matplotlib** (for plotting)
 - **statsmodels** (for statistical modeling and power calculations)
-- For installation instructions, see [Installation Guide](#installation)
+<!--- For installation instructions, see [Installation Guide](#installation) -->
 
 Make sure these packages are installed in your environment.
 
