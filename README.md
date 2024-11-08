@@ -46,9 +46,10 @@ This toolkit offers essential power estimation tools, specifically designed to h
 
 ### Prerequisites
 To use PowerAnalysis, you’ll need the following Python packages:
-- **numpy** (for numerical operations)
-- **pandas** (for data manipulation)
-- **matplotlib** (for plotting)
+- **numpy** (For efficient numerical operations)
+- **pandas** (For data manipulation and analysis)
+- **matplotlib** (For data visualization and plotting)
+- **scipy** (For scientific and statistical computations, including probability distributions, optimizations, and specialized math functions)
 - **statsmodels** (for statistical modeling and power calculations)
 <!--- For installation instructions, see [Installation Guide](#installation) -->
 
