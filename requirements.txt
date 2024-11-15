@@ -1,0 +1,6 @@
+numpy==1.23.5       # Efficient numerical operations
+pandas==1.5.3       # Data manipulation and analysis
+matplotlib==3.6.2   # Data visualization and plotting
+scipy==1.10.1       # Scientific computations
+statsmodels==0.14.0 # Statistical modeling and power calculations
+
